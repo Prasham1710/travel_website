@@ -12,11 +12,11 @@ const Selects = () => {
   return (
     <div className='max-w-[1240px] mx-auto px-4 py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
 
-    <button><SelectsCard bg={b1} text='Bora Bora' /></button>
-    <button><SelectsCard bg={b2} text='Maldives' /></button>
-    <button><SelectsCard bg={b3} text='Antigua' /></button>
+    <button> <a href='https://www.tripadvisor.in/Tourism-g311415-Bora_Bora_Society_Islands-Vacations.html' ><SelectsCard bg={b1} text='Bora Bora' /></a></button>
+    <button><a href='https://www.tripadvisor.in/Tourism-g293953-Maldives-Vacations.html'><SelectsCard bg={b2} text='Maldives' /></a></button>
+    <button><a href ='https://www.tripadvisor.in/Tourism-g147242-Antigua_Antigua_and_Barbuda-Vacations.html'><SelectsCard bg={b3} text='Antigua' /></a></button>
     <button><SelectsCard bg={b4} text='Cozumel' /></button>
-   <button> <SelectsCard bg={b5} text='Jamaica' /></button>
+    <button><SelectsCard bg={b5} text='Jamaica' /></button>
     <button><SelectsCard bg={b6} text='Key West' /></button>
     
         

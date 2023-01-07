@@ -32,7 +32,7 @@ const Navbar = () => {
   <input className='bg-transparent p-2 w-full focus:outline-none '
   type = 'text'
   placeholder='Search places'  />
-            <button><BiSearch className='mr-2' size={20}/></button>
+
             <button><BsPerson size={20}/></button>
          </div>
 

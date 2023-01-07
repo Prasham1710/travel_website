@@ -9,10 +9,8 @@ import {
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [logo, setLogo] = useState(false)
   const handleNav = () => {
     setNav(!nav);
-    setLogo(!logo)
   };
 
 
@@ -20,14 +18,15 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center h-20 px-5 '>
         <div>
-        <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>BEACHES.</h1>
+        <h1>BEACHES.</h1>
         </div>
         <ul className=' hidden md:flex'>
-            <li>Home</li>
-            <li>Destination</li>
-            <li>Travel</li>
-            <li>View</li>
-            <li>Book</li>
+            <button><li>Home</li></button>
+            <button><li>Destination</li></button>
+            <button><li>Travel</li></button>
+            <button><li>View</li></button>
+            <button><li>Book</li></button>
+            
         </ul>
         <div className='hidden md:flex'>
             <BiSearch className='mr-2' size={20}/>
@@ -42,14 +41,14 @@ const Navbar = () => {
           </div>
 
           {/*Mobile menu drop down*/}
-          <div onClick={handleNav} className={nav?'absolute left-0 top-0 w-full bg-gray-200/90 px-5 py-10 flex flex-col' : 'absolute left-[-100%]'}>
+          <div onClick={handleNav} className={nav?'absolute left-0 top-0 w-full bg-gray-200 px-5 py-10 flex flex-col' : 'absolute left-[-100%]'}>
             <ul>
-            <h1 className='border-b'>BEACHES.</h1>
-            <li className='border-b'>Home</li>
-            <li className='border-b'>Destination</li>
-            <li className='border-b'>Travel</li>
-            <li className='border-b'>View</li>
-            <li className='border-b'>Book</li>
+            <button><h1 className='border-b'>BEACHES.</h1></button>
+            <button><li className='border-b'>Home</li></button>
+            <button><li className='border-b'>Destination</li></button>
+            <button><li className='border-b'>Travel</li></button>
+            <button><li className='border-b'>View</li></button>
+            <button><li className='border-b'>Book</li></button>
             <div className='flex flex-col'>
               <button className='my-6'>Search</button>
               <button>Account</button>

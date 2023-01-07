@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='flex w-full justify-between items-center h-20 px-5 absolute  z-10 text-white '>
         <div>
-        <h1>BEACHES.</h1>
+        <h1>BAYWATCH</h1>
         </div>
         <ul className=' hidden md:flex'>
             <button><li>Home</li></button>
@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Mobile menu dropdown */}
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
-          <h1>BEACHES.</h1>
+          <h1>BAYWATCH</h1>
           <li className='border-b'><button>Home</button></li>
           <li className='border-b'><button>Destination</button></li>
           <li className='border-b'><button>Travel</button></li>

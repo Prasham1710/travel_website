@@ -22,7 +22,7 @@ const Search = () => {
         </div>
         <div className='grid sm:grid-cols-2 gap-8 py-4'>
           <div className='flex flex-col lg:flex-row items-center text-center'>
-            <button> <a href='(0124) 4628747'>
+            <button> <a href=''>
               <RiCustomerService2Fill size={50} /></a>
             </button>
             <div>
@@ -46,7 +46,7 @@ const Search = () => {
           <div className='border text-center'>
               <p className='pt-2'>GET AN ADDITIONAL 10% OFF</p>
               <p className='py-4'>12 HOURS LEFT</p>
-              <p className='bg-gray-800 text-gray-200 py-2'>BOOK NOW AND SAVE</p>
+              <button><p className='bg-gray-800 text-gray-200 py-2'>BOOK NOW AND SAVE</p></button>
           </div>
           <form className='w-full'>
               <div className='flex flex-col my-2'>
@@ -56,6 +56,8 @@ const Search = () => {
                       <option>Key West</option>
                       <option>Maldives</option>
                       <option>Cozumel</option>
+                      <option>Jamaica</option>
+                      <option>Bora Bora</option>
                   </select>
               </div>
               <div className='flex flex-col my-4'>

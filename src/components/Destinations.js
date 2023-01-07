@@ -14,7 +14,7 @@ const Destinations = () => {
            <img className='w-full h-full object-cover' src={b4} alt='/' />
            <img className='w-full h-full object-cover' src={b2} alt='/'/>
            <img className='w-full h-full object-cover' src={b3} alt='/' />
-           <img src={b1} alt='/' />
+           <img className='w-full h-full object-cover' src={b1} alt='/' />
            <img src={b5} alt='/' />
 
        </div>

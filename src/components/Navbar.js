@@ -34,17 +34,17 @@ const Navbar = () => {
           {/*Mobile menu drop down*/}
           <div className='absolute left-0 top-0 w-full bg-gray-200/90 px-5 py-10 flex flex-col'>
             <ul>
-            <h1>BEACHES.</h1>
-            <li>Home</li>
-            <li>Destination</li>
-            <li>Travel</li>
-            <li>View</li>
-            <li>Book</li>
-            <div>
-              <button>Search</button>
+            <h1 className='border-b'>BEACHES.</h1>
+            <li className='border-b'>Home</li>
+            <li className='border-b'>Destination</li>
+            <li className='border-b'>Travel</li>
+            <li className='border-b'>View</li>
+            <li className='border-b'>Book</li>
+            <div className='flex flex-col'>
+              <button className='my-6'>Search</button>
               <button>Account</button>
             </div>
-            <div>
+            <div className='flex justify-between my-6'>
               <FaFacebook className='icon'/>
               <FaTwitter className='icon'/>
               <FaInstagram className='icon'/>

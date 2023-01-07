@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-between items-center h-20 px-5 '>
+    <div className='flex justify-between items-center h-20 px-5 absolute  z-10 text-white '>
         <div>
         <h1>BEACHES.</h1>
         </div>

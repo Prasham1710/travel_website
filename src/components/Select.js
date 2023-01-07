@@ -12,7 +12,7 @@ const Selects = () => {
   return (
     <div className='max-w-[1240px] mx-auto px-4 py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
 
-    <SelectsCard bg={b1} text='Bora Bora' />
+    <button><SelectsCard bg={b1} text='Bora Bora' /></button>
     <SelectsCard bg={b2} text='Maldives' />
     <SelectsCard bg={b3} text='Antigua' />
     <SelectsCard bg={b4} text='Cozumel' />

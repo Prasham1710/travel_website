@@ -42,12 +42,21 @@ const Navbar = () => {
           {/*Mobile menu drop down*/}
           <div onClick={handleNav} className={nav?'absolute left-0 top-0 w-full bg-gray-200 px-5 py-10 flex flex-col' : 'absolute left-[-100%]'}>
             <ul>
+<<<<<<< HEAD
             <h1 className='border-b'>BEACHES.</h1>
             <li className='border-b'>Home</li>
             <li className='border-b'>Destination</li>
             <li className='border-b'>Travel</li>
             <li className='border-b'>View</li>
             <li className='border-b'>Book</li>
+=======
+            <button><h1 className='border-b'>BEACHESS.</h1></button>
+            <button><li className='border-b'>Home</li></button>
+            <button><li className='border-b'>Destination</li></button>
+            <button><li className='border-b'>Travel</li></button>
+            <button><li className='border-b'>View</li></button>
+            <button><li className='border-b'>Book</li></button>
+>>>>>>> 0e5b9154699d1c4a67574d3f310c1d8324c05746
             <div className='flex flex-col'>
               <button className='my-6'>Search</button>
               <button>Account</button>

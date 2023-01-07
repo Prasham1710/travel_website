@@ -22,8 +22,8 @@ const Search = () => {
         </div>
         <div className='grid sm:grid-cols-2 gap-8 py-4'>
           <div className='flex flex-col lg:flex-row items-center text-center'>
-            <button>
-              <RiCustomerService2Fill size={50} />
+            <button> <a href='(0124) 4628747'>
+              <RiCustomerService2Fill size={50} /></a>
             </button>
             <div>
                 <h3 className='py-2'>LEADING SERVICE</h3>

@@ -4,6 +4,7 @@ import { AiOutlineClose} from 'react-icons/ai';
 import { HiOutlineMenuAlt4} from 'react-icons/hi';
 import { AiOutlineSearch} from 'react-icons/ai';
 import {FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube} from 'react-icons/fa';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -16,7 +17,7 @@ const Navbar = () => {
         </div>
         <ul className=' hidden md:flex'>
             <button><li>Home</li></button>
-            <button><li>Destination</li></button>
+            <button><a href ='/destination'><li>Destination</li></a></button>
             <button><li>Travel</li></button>
             <button><li>View</li></button>
             <button><li>Book</li></button>
@@ -26,7 +27,7 @@ const Navbar = () => {
   <input className='bg-transparent p-2 w-full focus:outline-none '
   type = 'text'
   placeholder='Search places'  />
-            <button><BsPerson size={20}/></button>
+            <button><a href='https://www.makemytrip.com/support/contact-us.php'><BsPerson size={20}/></a></button>
          </div>
          {/*Hamburger*/}
          <div onClick={handleNav} className='md:hidden z-10'>

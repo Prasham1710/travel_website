@@ -14,7 +14,7 @@ const Hero = () => {
                <div>
                <input className='bg-transparent w-[300px] sm:w-[400px] font-[poppins] focus:outline-none' type='text' placeholder='Search Destination' />
                </div>
-               <div className='bg-blue-500 rounded-md'>
+               <div className='bg-gray-600 rounded-sm'>
                    <button><AiOutlineSearch size={20} className='icon'   style={{color: '#ffffff'}} /></button>
                </div>
            </form>

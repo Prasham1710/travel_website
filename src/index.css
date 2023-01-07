@@ -30,7 +30,7 @@
         @apply text-xl font-bold
     }
     
-      .icon{
+    .icon{
           @apply text-2xl cursor-pointer
       }
 

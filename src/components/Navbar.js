@@ -6,15 +6,11 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineSearch } from 'react-icons/ai';
 import {FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube,
 } from 'react-icons/fa';
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
-
-
-
   return (
     <div className='flex w-full justify-between items-center h-20 px-5 absolute  z-10 text-white '>
         <div>
@@ -32,17 +28,12 @@ const Navbar = () => {
   <input className='bg-transparent p-2 w-full focus:outline-none '
   type = 'text'
   placeholder='Search places'  />
-
             <button><BsPerson size={20}/></button>
          </div>
-
          {/*Hamburger*/}
          <div onClick={handleNav} className='md:hidden z-10'>
               {nav ? <AiOutlineClose className='text-black' size={20}/> :<HiOutlineMenuAlt4 size={20}/>}
-           
-           
           </div>
-
       {/* Mobile menu dropdown */}
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
@@ -68,6 +59,4 @@ const Navbar = () => {
     </div>
   );
 };
-
-
 export default Navbar

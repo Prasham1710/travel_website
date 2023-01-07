@@ -18,7 +18,7 @@
         @apply font-[Poppins]
     }
     li{
-        @apply p-5 text-xl
+        @apply p-5 
     }
     h1 {
         @apply text-3xl md:text-4xl font-bold

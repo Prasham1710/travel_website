@@ -2,7 +2,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>happy</div>
+    <div>happy<div>
+    </div>nic</div>
   )
 }
 

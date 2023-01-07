@@ -29,9 +29,7 @@
     h3{
         @apply text-xl font-bold
     }
-    button {
-        @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-2xl
-      }
+    
       .icon{
           @apply text-2xl cursor-pointer
       }

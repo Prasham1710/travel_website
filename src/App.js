@@ -1,4 +1,5 @@
 import React from 'react'
+import Destinations from './components/Destinations'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <Destinations />
     </div>
     
 

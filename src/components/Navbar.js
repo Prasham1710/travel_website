@@ -1,11 +1,9 @@
 import React,{useState} from 'react'
 import {BsPerson} from 'react-icons/bs'
-import {BiSearch} from 'react-icons/bi'
-import { AiOutlineClose } from 'react-icons/ai';
-import { HiOutlineMenuAlt4 } from 'react-icons/hi';
-import { AiOutlineSearch } from 'react-icons/ai';
-import {FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube,
-} from 'react-icons/fa';
+import { AiOutlineClose} from 'react-icons/ai';
+import { HiOutlineMenuAlt4} from 'react-icons/hi';
+import { AiOutlineSearch} from 'react-icons/ai';
+import {FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube} from 'react-icons/fa';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -39,7 +37,7 @@ const Navbar = () => {
         <ul>
           <h1>BEACHES.</h1>
           <li className='border-b'><button>Home</button></li>
-         <li className='border-b'><button>Destination</button></li>
+          <li className='border-b'><button>Destination</button></li>
           <li className='border-b'><button>Travel</button></li>
           <li className='border-b'><button>View</button></li>
           <li className='border-b'><button>Book</button></li>

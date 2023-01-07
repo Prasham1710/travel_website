@@ -11,7 +11,7 @@ const Destinations = () => {
        <h1>All-Inclusive Resorts</h1>
        <p>On the Caribean's Beat Beaches</p>
        <div className='grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4'>
-           <img src={b4} alt='/' />
+           <img className='w-full h-full object-cover' src={b4} alt='/' />
            <img src={b2} alt='/' />
            <img src={b3} alt='/' />
            <img src={b1} alt='/' />

@@ -29,7 +29,11 @@
     h3{
         @apply text-xl font-bold
     }
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 185fca2ef4b21c8b77a14e9d4d4b5f46c6dabbc5
       .icon{
           @apply text-2xl cursor-pointer
       }

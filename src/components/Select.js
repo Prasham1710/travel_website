@@ -15,9 +15,9 @@ const Selects = () => {
     <button> <a href='https://www.tripadvisor.in/Tourism-g311415-Bora_Bora_Society_Islands-Vacations.html' ><SelectsCard bg={b1} text='Bora Bora' /></a></button>
     <button><a href='https://www.tripadvisor.in/Tourism-g293953-Maldives-Vacations.html'><SelectsCard bg={b2} text='Maldives' /></a></button>
     <button><a href ='https://www.tripadvisor.in/Tourism-g147242-Antigua_Antigua_and_Barbuda-Vacations.html'><SelectsCard bg={b3} text='Antigua' /></a></button>
-    <button><SelectsCard bg={b4} text='Cozumel' /></button>
-    <button><SelectsCard bg={b5} text='Jamaica' /></button>
-    <button><SelectsCard bg={b6} text='Key West' /></button>
+    <button><a href ='https://www.tripadvisor.in/Tourism-g150809-Cozumel_Yucatan_Peninsula-Vacations.html'><SelectsCard bg={b4} text='Cozumel' /></a></button>
+    <button><a href ='https://www.tripadvisor.com/Tourism-g147309-Jamaica-Vacations.html'><SelectsCard bg={b5} text='Jamaica' /></a></button>
+    <button><a href='https://www.tripadvisor.in/Tourism-g34345-Key_West_Florida_Keys_Florida-Vacations.html'><SelectsCard bg={b6} text='Key West' /></a></button>
     
         
     </div>

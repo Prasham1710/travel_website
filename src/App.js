@@ -15,8 +15,8 @@ const App = () => {
       <Destinations />
       <Search />
       <Select />
-      <Footer />
       <Carousel />
+      <Footer />
 
     </div>
     

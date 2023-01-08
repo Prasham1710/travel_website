@@ -15,11 +15,11 @@ function App() {
       <Routes>
         <Route path='/' element= {<Hero/>}/>
         <Route path='/destination' element= {<Destinations/>}/>
+        <Route path ='/book' element={<Search/>}/>
+        <Route path ='/travel' element={<Select/>}/>
+        <Route path ='/view' element={<Carousel />}/>
+        <Route path ='/contact' element={<Footer />}/>
         </Routes>
-        <Search />
-        <Select />
-        <Carousel />
-        <Footer />
         </BrowserRouter>
       </div>
     );

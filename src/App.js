@@ -12,6 +12,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Destinations />
       <BrowserRouter>
       <Routes>
         <Route path='/destination' element= {<Destinations/>}/>

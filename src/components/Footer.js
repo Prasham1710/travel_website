@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='w-full bg-gray-100 py-10'>
+    <div className='w-full bg-gray-100 py-5'>
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
         <div className='sm:flex text-center justify-between items-center'>
           <h1>BAYWATCH</h1>

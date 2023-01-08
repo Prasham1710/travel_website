@@ -6,14 +6,14 @@ import Search from './components/Search'
 import Select from './components/Select'
 import Footer from './components/Footer'; 
 import Carousel from './components/Carousel'
-import { BrowserRouter, Routes,Route } from "react-router-dom";
+import { BrowserRouter, Routes,Route} from "react-router-dom";
 function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
       <BrowserRouter>
       <Routes>
+        <Route path='/' element= {<Hero/>}/>
         <Route path='/destination' element= {<Destinations/>}/>
         </Routes>
         <Search />

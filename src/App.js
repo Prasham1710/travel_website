@@ -11,9 +11,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
       <BrowserRouter>
       <Routes>
+        <Route path='/' element={<Hero/>}/>
         <Route path='/destination' element= {<Destinations/>}/>
         </Routes>
         <Search />

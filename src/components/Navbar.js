@@ -38,7 +38,7 @@ const Navbar = () => {
         <ul>
           <h1>BAYWATCH</h1>
           <li className='border-b'><button>Home</button></li>
-          <li className='border-b'><button>Destination</button></li>
+          <li className='border-b'><button><a href ='/destination'>Destination</a></button></li>
           <li className='border-b'><button>Travel</button></li>
           <li className='border-b'><button>View</button></li>
           <li className='border-b'><button>Book</button></li>

@@ -35,7 +35,7 @@ const Navbar = () => {
               {nav ? <AiOutlineClose className='text-black' size={20}/> :<HiOutlineMenuAlt4 size={20}/>}
           </div>
       {/* Mobile menu dropdown */}
-      <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
+      <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/20 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
           <h1>BAYWATCH</h1>
           <li className='border-b'><button><a href = '/home'>Home</a></button></li>

@@ -38,7 +38,7 @@ const Navbar = () => {
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
           <h1>BAYWATCH</h1>
-          <li className='border-b'><button><a href = '/home'>Home</a></button></li>
+          <li className='border-b'><button><a href = '/'>Home</a></button></li>
           <li className='border-b'><button><a href ='/destination'>Destination</a></button></li>
           <li className='border-b'><button><a href ='/travel'>Travel</a></button></li>
           <li className='border-b'><button><a href ='/view'>View</a></button></li>

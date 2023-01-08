@@ -14,6 +14,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element= {<Hero/>}/>
+        <Route path ='/home' element={<Hero/>}/>
         <Route path='/destination' element= {<Destinations/>}/>
         <Route path ='/book' element={<Search/>}/>
         <Route path ='/travel' element={<Select/>}/>

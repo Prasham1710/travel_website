@@ -4,6 +4,7 @@ import { AiOutlineClose} from 'react-icons/ai';
 import { HiOutlineMenuAlt4} from 'react-icons/hi';
 import { AiOutlineSearch} from 'react-icons/ai';
 import {FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube} from 'react-icons/fa';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -12,11 +13,11 @@ const Navbar = () => {
   return (
     <div className='flex w-full justify-between items-center h-20 px-5 absolute  z-10 text-white '>
         <div>
-        <h1>BEACHES.</h1>
+        <h1>BAYWATCH</h1>
         </div>
         <ul className=' hidden md:flex'>
             <button><li>Home</li></button>
-            <button><li>Destination</li></button>
+            <button><a href ='/destination'><li>Destination</li></a></button>
             <button><li>Travel</li></button>
             <button><li>View</li></button>
             <button><li>Book</li></button>
@@ -26,7 +27,7 @@ const Navbar = () => {
   <input className='bg-transparent p-2 w-full focus:outline-none '
   type = 'text'
   placeholder='Search places'  />
-            <button><BsPerson size={20}/></button>
+            <button><a href='https://www.makemytrip.com/support/contact-us.php'><BsPerson size={20}/></a></button>
          </div>
          {/*Hamburger*/}
          <div onClick={handleNav} className='md:hidden z-10'>
@@ -35,7 +36,7 @@ const Navbar = () => {
       {/* Mobile menu dropdown */}
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
-          <h1>BEACHES.</h1>
+          <h1>BAYWATCH</h1>
           <li className='border-b'><button>Home</button></li>
           <li className='border-b'><button>Destination</button></li>
           <li className='border-b'><button>Travel</button></li>

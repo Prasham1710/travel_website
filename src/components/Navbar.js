@@ -50,7 +50,6 @@ const Navbar = () => {
           <div className='flex justify-between my-6'>
             <a href='https://twitter.com/makemytrip?lang=en'>< FaTwitter className='icon' /></a>
             <a href='https://www.facebook.com/makemytrip/'><FaFacebook className='icon' /></a>
-             
             <a href='https://www.youtube.com/channel/UCkCnjfFgbcFwiY5StOdsSMA'><FaYoutube className='icon' /></a>
             <a href='https://in.pinterest.com/makemytrip/'><FaPinterest className='icon' /></a>
             <a href='https://www.instagram.com/makemytrip/?hl=en'><FaInstagram className='icon' /></a>

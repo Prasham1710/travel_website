@@ -35,14 +35,14 @@ const Navbar = () => {
               {nav ? <AiOutlineClose className='text-black' size={20}/> :<HiOutlineMenuAlt4 size={20}/>}
           </div>
       {/* Mobile menu dropdown */}
-      <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
+      <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-200 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
           <h1>BAYWATCH</h1>
-          <li className='border-b'><button><a href = '/home'>Home</a></button></li>
-          <li className='border-b'><button><a href ='/destination'>Destination</a></button></li>
-          <li className='border-b'><button><a href ='/travel'>Travel</a></button></li>
-          <li className='border-b'><button><a href ='/view'>View</a></button></li>
-          <li className='border-b'><button><a href ='/book'>Book</a></button></li>
+          <li className='border-b '><button><a href = '/home'>Home</a></button></li>
+          <li className='border-b '><button><a href ='/destination'>Destination</a></button></li>
+          <li className='border-b '><button><a href ='/travel'>Travel</a></button></li>
+          <li className='border-b '><button><a href ='/view'>View</a></button></li>
+          <li className='border-b '><button><a href ='/book'>Book</a></button></li>
           <div className='flex flex-col'>
             <button className='my-6 p-3 border bg-gradient-to-r from-blue-900 to-sky-500 text-white rounded-2xl'>Search</button>
             <button className='p-3 border bg-gradient-to-r from-blue-900 to-sky-500 text-white rounded-2xl '>Account</button>
